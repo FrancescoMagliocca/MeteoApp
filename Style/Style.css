@@ -1,0 +1,150 @@
+/* @Francesco Magliocca*/
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.titolo{
+    text-align: center;
+    font-size: 50px;
+    color: goldenrod;
+    font-family: 'Girassol', cursive;
+}
+
+.campoinput{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%,-50%);
+}
+input,button{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+input[type="text"]{
+    background: #fff;
+    width: 340px;
+    height: 50px;
+     border: none;
+     outline: none;
+     padding: 0 25px;
+     border-radius: 25px 0 0 25px;
+}
+
+button{
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background:blue;
+    color: white;
+}
+button:hover{
+    background: goldenrod;
+}
+
+
+
+.descrizionetempo{
+    text-align: center;
+    color:goldenrod;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.temperaturacittà{
+    text-align: center;
+    color:goldenrod;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.frasebella, .descr, .temperature{
+    text-align: center;
+    color:blue;
+    font-size: 20px;
+   
+}
+.container{
+    text-align: center;
+    display: inline-block;
+    margin-left: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.frasebella{
+    float: left;
+    font-size: 35px;
+   font-family: 'Raleway', sans-serif;
+}
+.weatherResponse{
+    float: right;
+    /*margin-top: +3.5px;*/
+    color: goldenrod;
+    font-size: 30px;
+    margin-left: +18px;
+    font-weight: bold;
+}
+
+table{
+    margin-left: 400px;
+    margin-top: +100px;
+    width: 700px;
+    font-size: 35px;
+    color: blue;
+}
+ .tempmax, .tempmin, .umidita, .press, .visibilita, .vento{
+     color: goldenrod;
+     font-weight: bold;
+     font-size: 45px;
+ }
+
+.finepag{
+    margin-bottom: 0;
+    height: 200px;
+    background-color: rgba(9, 228, 228, 0.644);
+}
+
+.Media{
+    padding: 8px;
+ 
+ }
+ .Media ul{
+    padding: 8px;
+    text-align: center;
+ }
+ .Media ul li{
+    margin: 5px;
+    list-style-type: none;
+    display: inline-block;
+ }
+ .Media li a{
+    color:white;
+ }
+
+ .icons li{
+    font-size: 30px;
+ 
+ }
+ .me{
+     margin-top: +20px;
+     font-size: 25px;
+     color: white;
+     text-align: center;
+ }
+
+ a:hover{
+     color:goldenrod;
+ }
